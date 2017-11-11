@@ -261,7 +261,7 @@ function wp_functionality_constants() {
 	 * @since 2.5.0
 	 */
 	if ( !defined( 'AUTOSAVE_INTERVAL' ) )
-		define( 'AUTOSAVE_INTERVAL', 60 );
+		define( 'AUTOSAVE_INTERVAL', 7200 );
 
 	/**
 	 * @since 2.9.0
@@ -270,7 +270,7 @@ function wp_functionality_constants() {
 		define( 'EMPTY_TRASH_DAYS', 30 );
 
 	if ( !defined('WP_POST_REVISIONS') )
-		define('WP_POST_REVISIONS', true);
+		define('WP_POST_REVISIONS', false);
 
 	/**
 	 * @since 3.3.0
